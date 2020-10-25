@@ -1,11 +1,12 @@
-# Script para actualizar automáticamente un equipo con myNode versión Community
+# Script para actualizar automáticamente un equipo con myNode Community ed.
 
 La versión community de myNode (https://mynodebtc.com/) no incluye la actualización automatizada de la misma. Para tal fin he creado este pequeño script que nos puede ser de ayuda para ello.
 
 Para usarlo, la primera vez deberemos descargarlo y establecer sus permisos:
 
 ```Bash Shell
-wget
+cd $HOME
+wget https://github.com/sargatxet/Scripts/raw/main/myNode/actualizar.sh
 chmod +x actualizar.sh
 ```
 
